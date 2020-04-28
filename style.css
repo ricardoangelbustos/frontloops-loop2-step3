@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background: rgb(184,132,229);
+    background: linear-gradient(180deg, rgba(184,132,229,1) 0%, rgba(164,134,234,1) 50%, rgba(129,134,234,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+.container{
+    width: 19%;
+    height: 260px;
+    margin: 85px auto;
+}
+.up{
+    background: rgb(186,126,217);
+    background: linear-gradient(90deg, rgba(186,126,217,1) 0%, rgba(175,123,213,1) 50%, rgba(168,122,210,1) 100%);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+}
+.title{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+.title h4{
+    font-weight: 300;
+}
+.title img{
+    width: 13px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+.center{
+    background-color: #5f5280;
+    width: 100%;
+    height: 127px;
+    line-height: 30px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 25px;
+    box-sizing: border-box;
+}
+.center li{
+    color: #dddae3; 
+    transition: 500ms;
+}
+.center li:hover{
+    color: white;
+    cursor: pointer;
+}
+.down{
+    background: rgb(168,123,213);
+    background: linear-gradient(90deg, rgba(168,123,213,1) 0%, rgba(156,120,209,1) 50%, rgba(145,119,206,1) 100%);
+    width: 100%;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+}
+.down h4{
+    font-weight: 300;
+    margin-left: 10px;
+}
+.down img{
+    width: 13px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+@media (max-width: 1024px){
+    .container{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        width: 50%;
+    }
+}
+@media (max-width: 425px){
+    .container{
+        width: 80%;
+    }
+}
